@@ -477,7 +477,7 @@ a.slide__next,
 }
 
 
-/* Aboutevent Style */
+/* About event Style */
 
 
 .navBar {
@@ -530,61 +530,110 @@ a.slide__next,
 
 }
 
-/* News Style */
 
-
-h2{
-    font-weight: 100;
-    font-size: 30pt;
-    line-height: 1.3em;
-    margin: 15px 0;
-}
-  
-div.message {
+#news {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    padding-left: 10px;
-    margin: 30px 10px;
-    box-shadow:0 2px 5px rgba(0,0,0,.3);
-    color: #FFF;
-    height: 50vh;
-    
-    -webkit-transition: all .5s ease;
-       -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-         -o-transition: all .5s ease;
-            transition: all .5s ease;
-}
-div.message:hover{
-    box-shadow: 0 15px 20px rgba(10,0,10,.3);
-}
-  
-div.message:before{
-    top: -21px;
-    left: 50%;
-    margin:0 -21px;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    width: 24px;
-    padding:10px;
-    background: inherit;
-    box-shadow:0 5px 10px rgba(0,0,0,.25);
-    color: rgba(255,255,255,.75);
-    border-radius:50%;
-    border: 2px solid transparent;
-    z-index: 2;
-}
-  
-  div.message.information{background: rgb(0, 13, 255);}
-  div.message.announcement{background: #c8ff00;}
-  div.message.announcement{color: rgb(0, 13, 255);}
+    justify-content: center;
 
-.newsImg {
-    height: 200px; 
 }
+
+
+#animated-cards .card-header {
+    height: 200px;
+    background-color: #c8ff00;
+    background-image: url(https://i.ibb.co/7NR50Vt/2109-w015-n001-540-B-p15-540.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode:multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+  #animated-cards .service-icon {
+    font-size: 28px;
+    color: black;
+    opacity: 0.4;
+    font-size: 55px;
+    
+}
+  
+  #animated-cards .heading-card {
+    margin-top: 20px;
+    margin: 20px;
+    font-size: 65px;
+    
+}
+  
+  #animated-cards .cardheader-text {
+    color: white;
+    margin: 20px;
+    font-size: 32px;
+    
+  }
+  
+  #animated-cards .card-text.sub-text-color {
+    color: black;
+    margin: 20px;
+    
+    
+  }
+  
+  #animated-cards .card-text:last-child {
+    font-size: 19px;
+    color: rgb(0, 13, 255);
+    margin: 15px;
+
+  }
+  
+  #animated-cards .cardheader-subtext {
+    font-size: 20px;
+  }
+  
+  #animated-cards .card.cards-shadown {
+    box-shadow: 2px 2px 30px #aaaaaa;
+    
+  }
+  
+  #animated-cards {
+    margin: 40px;
+  }
+  
+  #animated-cards .col {
+    padding: 20px 7px 0px 7px;
+  }
+  
+  
+  #animated-cards .card:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 900ms;
+    z-index: 66;
+  }
+  
+  #animated-cards .card {
+    transition: all 1200ms;
+    height: 100%;
+  }
+  
+  
+  #animated-cards .card-body .card-header:first-child:hover {
+    background-color: #c8ff00;
+    cursor: pointer;
+  }
+  
+  #animated-cards .card:hover .card-header:first-child {
+    background-color: rgba(0, 0, 0, 0.43);
+  }
+
+  
 
 
 
